@@ -1,2 +1,2 @@
 #!/bin/bash
-file $(ls \$PATH | grep /action)
+export PATH=$:PATH: /action

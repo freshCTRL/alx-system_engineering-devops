@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt /etc/password | head
+ls -lt | head /etc/password

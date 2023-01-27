@@ -1,1 +1,5 @@
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH3rI3v4N23lpK4jVgdYD3QukSYixIM58rKrsNkTSuEB oyeboabariu25@gmail.com
+#!/usr/bin/env bash
+#a Bash script that stops 4-to_infinity_and_beyond process
+kill "$(pgrep -f 4-to_infinity_and_beyond)"
+
